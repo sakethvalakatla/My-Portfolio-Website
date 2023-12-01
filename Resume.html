@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:wght@500&family=Lora&family=Oswald&family=Roboto+Slab:wght@500&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+    background-color:aliceblue;
+}
+.sub{
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 0;
+}
+
+li {
+  list-style: none;
+}
+.icon{
+  height:25px;
+  width: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color:darkorange;
+  margin-top: 20px;
+  margin-left: 20px;;
+}
+.myname{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    padding:20px;
+    margin: 0;
+    letter-spacing: 2px;
+    /* word-spacing:2px; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight:bold;
+  }
+  .inner{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 0 10px;
+    font-size: 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .inner a{
+    text-decoration: none;
+    border-right: 1px #909090 solid;
+    color: black;
+    padding: 0 10px;
+    border-left: 1px #909090 solid;
+  }
+  .horizontal-line{
+  margin-top: 100px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  width: 90%;
+}
+.foot{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content:space-around;
+  margin-bottom: 90px;
+}
+
+.phone p {
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 0;
+}
+.foot1{
+    font-size: 20px;
+}
+.foot2{
+    font-size: 20px;
+}
+.foot3{
+    font-size: 20px;
+}
+.phno {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.mail p{
+  padding: 10px;
+  letter-spacing:0;
+}
+.mine{
+  font-size: 16px;
+  font-weight: lighter;
+}
+.social p{
+  padding: 10px;
+  letter-spacing:0;
+}
+.linkedin{
+  margin-left: 10px;
+}
+.mark p{
+  padding: 10px;
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.Resume{
+    font-size: 22px;
+    font-family:  'Work Sans', sans-serif;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+.part1{
+    font-size: 18px;
+    font-family:  'Work Sans', sans-serif;
+    margin-left: 20%;
+    margin-top:50px;
+    
+}
+.cate{
+    display: flex;
+    flex-wrap: wrap;
+}
+.year p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.college p{
+   font-weight: lighter;
+   font-size: 14px;
+   letter-spacing: 0;
+}
+.college .name{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cate1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.year1 p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.college1 p{
+   font-weight: lighter;
+   font-size: 14px;
+   letter-spacing: 0;
+}
+.college1{
+    margin-left: 30px;
+}
+.college1 .name1{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cate2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.year2 p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.college2{
+    margin-left: 30px;
+}
+.college2 p{
+   font-weight: lighter;
+   font-size: 14px;
+   letter-spacing: 0;
+}
+.college2 .name2{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.edu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.part2{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+.horizontal-line1{
+    margin-top: 50px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  width: 90%;
+}
+.part3{
+    font-size: 18px;
+    font-family:  'Work Sans', sans-serif;
+    margin-left: 20%;
+    margin-top:50px;
+}
+.course h3{
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family:  'Work Sans', sans-serif;
+    margin: 0;
+    margin-left: 20px;
+    
+
+}
+.course p{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+.program h3{
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family:  'Work Sans', sans-serif;
+    margin: 0;
+    margin-left: 20px;
+   
+}
+.program p{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.part4{
+    margin-top: 80px;
+    margin-left: 400px;
+}
+.program{
+    margin-top: 40px;
+}
+@media (min-width: 319px) and (max-width: 480px)
+    {
+  .foot{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 100px; */
+    /* justify-content: center; */
+}
+.container{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  /* width: 90%; */
+}
+.icon{
+  /* margin-left: 3px; */
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height:20px;
+  width: 20px;
+}
+.saketh p{
+  padding: 0;
+  margin-left: 10px;
+}
+.inner{
+    margin-top: 30px;
+  justify-content: center;
+  margin-left: 40px;
+}
+.Resume{
+    margin: 0;
+    margin-top: 100px;
+}
+.part2{
+    margin: 0;
+}
+.part1{
+    margin: 0;
+    margin-left: 20px;
+}
+.college1{
+    margin: 0;
+}
+.cate2{
+    display: inline;
+}
+.college2{
+    margin: 0;
+}
+.part3{
+    margin: 0;
+    margin-left: 20px;
+}
+.part4{
+    margin: 0;
+}
+.skill{
+    display: inline;
+}
+.mark p{
+  margin-top: 50px;
+  text-align: center;
+}
+.course{
+    margin-top: 40px;
+}
+}
+
+
+
+</style>
+<header>
+    <div class="container">
+      <div class="myname">
+        <div class="icon"></div>
+       <div class="saketh"><p ><a href="index.html"> Valakatla Saketh</a><span class="sub"> Web developer</span></p></div>
+       </div>
+        <div class="inner">
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a> </li>
+      <li><a href="contact.html">Contact</a></li>
+      </div>
+</div>
+
+</div>
+</header>
+<body>
+    <div class="Resume">
+        <h1>Resume</h1>
+    </div>
+    <div class="edu">
+    <div class="part1">
+        <h2>Education</h2>
+    </div>
+
+   <div class="part2">
+    <div class="cate">
+        <div class="year"><p>2021-present</p> </div>
+        <div class="college"><p class="name">CVR COLLEGE OF ENGINEERING , B.TECH.</p>
+        <p>CSE(Cybersecurity)</br>
+            CGPA: 9.0/10.0
+        </p>
+        </div>
+    </div>
+
+    <div class="cate1">
+        <div class="year1"><p>2019-2021</p></div>
+        <div class="college1">
+            <p class="name1">NRI JUNIOR COLLEGE , SENIOR SECONDARY.</p>
+            <P>(Pre-Engineering)</br>
+             Score:958/1000
+            </P>
+        </div>
+    </div>
+
+    <div class="cate2">
+        <div class="year2"><p>2018-2019</p></div>
+        <div class="college2">
+            <p class="name2">GEETHA HIGH SCHOOL.</p>
+            <P> CGPA: 9.7/10.0 </P>
+        </div>
+    </div>
+  </div>
+  </div>
+  <hr class="horizontal-line1">
+
+
+<div class="skill">
+  <div class="part3">
+     <h2>Key Skills</h2>
+  </div>
+
+  <div class="part4">
+  <div class="course">
+    <h3>
+        Coursework
+    </h3>
+    <p>DataStructures</br>
+       Operating systems</br>
+       DBMS</br>
+       Object Oriented Programming</br>
+       Computer Algorithms</p>
+  </div>
+  
+  <div class="program">
+    <h3>
+        Programming
+    </h3>
+    <p>
+        Java</br>
+        C</br>
+        SQL</br>
+        HTML</br>
+        CSS
+    </p>
+  </div>
+  </div>
+  </div>
+
+</body>
+<footer>
+    <hr class="horizontal-line">
+    <div class="foot">
+        <div class="phone">
+            <p class="foot1">Phone</p>
+            <p class="phno">81259xxx20</p>
+        </div>
+        <div class="mail">
+            <p class="foot2">Email</p>
+            <p class="mine">sakethvalakatla12@gmail.com</p>
+        </div>
+        <div class="social">
+            <p class="foot3">Follow Me</p>
+            <a href="https://www.linkedin.com/in/saketh-valakatla-a9194122b">
+            <img class="linkedin" alt="LinkedIn" fetchpriority="high" src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png" style="width: 24px; height: 24px; object-fit: cover;"></a>
+        </div>
+        <div class="mark">
+            <p class="foot4">© 2035 By Saketh Valakatla</p>
+        </div>
+    </div>
+    </footer>
+</html>
